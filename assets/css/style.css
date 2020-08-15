@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url("../images/photo-1595209820200-00baf9cb1662.jpeg");
+}
