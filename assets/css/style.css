@@ -30,6 +30,8 @@ header a {
     text-decoration: none;
     color: black;
 }
+
+
 header nav {
     margin: 7px 0;
 }
@@ -90,7 +92,36 @@ header nav ul li a {
     padding: 50px 0 50px 0;
 }
 
+.about {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.about-img img {
+    max-width: 100%;
+}
+
+.about-text {
+    flex: 12;
+}
+
 .aboutMe p {
+    display: flex;
     line-height:1.7;
     width: 80%;
     font-size: 20px;
