@@ -153,12 +153,14 @@ header nav ul li a {
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .horiseon-img {
     background-image: url("../images/Horiseon.png");
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .ngc-img {
@@ -166,17 +168,20 @@ header nav ul li a {
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .nba-img {
     background-image: url("../images/basketball.jpeg");
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .work-grid-wrapper {
     display:flex;
     width: 100%;
     justify-content: center;
+    position: relative;
 }
 
 .work-grid-container {
@@ -219,6 +224,57 @@ header nav ul li a {
     opacity: 1;
 }
 
+.portfolio-img::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(252, 225, 56, 0.3),#024e76);
+    position: absolute;
+    opacity: 0;
+}
+
+.work-grid-item:hover .portfolio-img::after {
+    opacity: 1;
+}
+
+.horiseon-img::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(252, 225, 56, 0.3),#024e76);
+    position: absolute;
+    opacity: 0;
+}
+
+.work-grid-item:hover .horiseon-img::after {
+    opacity: 1;
+}
+
+.ngc-img::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(252, 225, 56, 0.3),#024e76);
+    position: absolute;
+    opacity: 0;
+}
+
+.work-grid-item:hover .ngc-img::after {
+    opacity: 1;
+}
+
+.nba-img::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(252, 225, 56, 0.3),#024e76);
+    position: absolute;
+    opacity: 0;
+}
+
+.work-grid-item:hover .nba-img::after {
+    opacity: 1;
+}
 .work-grid-item.run-buddy {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
