@@ -347,18 +347,19 @@ header nav ul li a {
     padding: 5px 0px 5px 0px;
 }
 .contacts ul {
+    margin: 7px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
 
 }
-.contacts ul li a {
+.contacts ul li  {
     padding: 5px 8px;
     font-weight: lighter;
     font-size: 1.55vw;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
 }
 
 .contacts a {
@@ -381,8 +382,6 @@ header nav ul li a {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
-    }
-    header nav ul li a {
         font-size: 20px;
     }
 
@@ -391,10 +390,19 @@ header nav ul li a {
     }
 
     .work-grid-wrapper {
-        width: 20%;
+        width: 5%;
     }
     .work-grid-container {
        width: 60%;
     }
+    .work-grid-item {
+        margin: 2px 2px 2px 2px;
+    }
     
+    .contacts nav ul li {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+    }
 }    
