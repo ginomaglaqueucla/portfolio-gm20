@@ -13,6 +13,8 @@ Portfolio is not complete and future upgrades and changes are to come.
 (3) Make page more responsive and adaptive with smaller screens
 (4) Clean up flex containers within sections
 
+Screenshot:
+(./assets/css/images/Portfolio_SS.png)
 
 Credits
 Changes/Commits by: ginomaglaqueucla - (https://github.com/ginomaglaqueucla/portfolio-gm20/)
