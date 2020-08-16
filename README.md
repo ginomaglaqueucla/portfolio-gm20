@@ -6,6 +6,12 @@ If accessing mock-up locally, clone repository from (https://github.com/ginomagl
 Usage
 Portfolio is a web application that contains career information of Gino Maglaque. Navigation section that will UI scroll to respective section. About section displays general information of Gino. Work section contains Gino's most recent web app projects and when clicked upon will direct you to them. Contact section list information how to contact Gino
 
+Future Updates
+Portfolio is not complete and future upgrades and changes are to come.
+(1) Section must be restructure to apply a more effiencent and cleaner flex or grid. 
+(2) Fix animations with work section links. 
+(3) Make page more responsive and adaptive with smaller screens
+(4) Clean up flex containers within sections
 
 
 Credits
