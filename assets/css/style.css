@@ -116,12 +116,16 @@ header nav ul li a {
     background-size: cover;
 }
 
+.work-text-container {
+    background-color: beige;
+}
+
 .proj-img h3 {
     position: relative;
     font-size: 30px;
     margin: 0 auto;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     flex-wrap: wrap;
 }
 .proj-img h4 {
@@ -153,7 +157,10 @@ header nav ul li a {
     background-image: url("../images/workplace.jpeg");
     background-size: cover;
 }
-
+.nba {
+    background-image: url("../images/basketball.jpeg");
+    background-size: cover;
+}
 .work-grid-wrapper {
     display:flex;
     width: 100%;
@@ -187,11 +194,17 @@ header nav ul li a {
 
 .work-grid-item.horiseon {
     grid-column: 1;
+    grid-row: 3;
 }
 
 .work-grid-item.ngc {
     grid-column: 2;
     grid-row: 3;
+}
+
+.work-grid-item.nba {
+    grid-column: 3;
+    grid-row: 2;
 }
 
 
