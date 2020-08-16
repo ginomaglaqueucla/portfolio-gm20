@@ -9,12 +9,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.flex-container {
-    display:flex;
-    width: 100%;
-    justify-content: center;
-    position: relative;
-}
 
 /* HEADER SECTION */
 header {
