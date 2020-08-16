@@ -89,6 +89,7 @@ header nav ul li a {
 
 /* ABOUT ME SECTION */
 .aboutMe {
+    background-color: beige;
     padding: 50px 0 50px 0;
 }
 
@@ -130,6 +131,10 @@ header nav ul li a {
 }
 
 /* WORK SECTION */
+.workSection {
+    /* background-color: beige; */
+    padding: 50px 0 50px 0;
+}
 .list-of-work {
     width: 100%;
     margin: 0 auto;
@@ -333,6 +338,10 @@ header nav ul li a {
 
 
 /* CONTACT ME SECTION */
+.contactMe {
+    background-color: beige;
+    padding: 50px 0 50px 0;
+}
 .contacts {
     margin: 7px 0;
     padding: 5px 0px 5px 0px;
