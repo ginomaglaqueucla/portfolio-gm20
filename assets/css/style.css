@@ -115,6 +115,27 @@ header nav ul li a {
     align-items: flex-end;
     background-size: cover;
 }
+
+.proj-img h3 {
+    position: relative;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.proj-img h4 {
+    position: relative;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
+}
 .proj-1 {
     background-image: url("../images/RunBuddy.png");
 }
