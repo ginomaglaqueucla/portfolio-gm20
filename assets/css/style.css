@@ -385,5 +385,16 @@ header nav ul li a {
     header nav ul li a {
         font-size: 20px;
     }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .work-grid-wrapper {
+        width: 20%;
+    }
+    .work-grid-container {
+       width: 60%;
+    }
     
 }    
