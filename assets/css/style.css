@@ -144,6 +144,37 @@ header nav ul li a {
     background-image: url("../images/Portfolio.png");
 }
 
+.work-grid-wrapper {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 1.2rem;
+}
+
+.work-grid-item {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.work-grid-item.run-buddy {
+    grid-column: 1 / span 2;
+}
+
+.work-grid-item.portfolio {
+    grid-column: 3 / span 1;
+}
+
+
 /* CONTACT ME SECTION */
 .contacts {
     margin: 7px 0;
