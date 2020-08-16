@@ -99,6 +99,22 @@ header nav ul li a {
 }
 
 /* WORK SECTION */
+.list-of-work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.proj-img {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    background-size: cover;
+}
 .proj-1 {
     background-image: url("../images/RunBuddy.png");
 }
