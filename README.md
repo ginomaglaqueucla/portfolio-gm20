@@ -14,7 +14,7 @@ Portfolio is not complete and future upgrades and changes are to come.
 (4) Clean up flex containers within sections
 
 Screenshot:
-![Alt text](./assets/css/images/Portfolio_SS.png)
+![Alt text](./assets/css/images/Portfolio_SS.png?raw=true)
 
 Credits
 Changes/Commits by: ginomaglaqueucla - (https://github.com/ginomaglaqueucla/portfolio-gm20/)
